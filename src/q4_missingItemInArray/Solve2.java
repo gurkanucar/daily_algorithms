@@ -4,9 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/* THIS SOLUTION WILL WORK ONLY FOR POSITIVE ELEMENTS*/
+
 // find missing number for given 2 list
 // [1,5,7] & [1,7]  => 5
-public class Main {
+public class Solve2 {
     public static void main(String[] args) {
 
         List<Integer> arr1;
@@ -16,7 +18,7 @@ public class Main {
         arr2 = getListFromInput();
 
 
-        System.out.println(sum(arr1) - sum(arr2));
+        System.out.println(Math.abs(sum(arr1) - sum(arr2)));
 
 
     }
