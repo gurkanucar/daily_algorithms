@@ -68,11 +68,14 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //find longest common prefix for given inputs
+        // team, test, tear
+
         Trie trie = new Trie();
 
-        trie.insert("flow");
-        trie.insert("flight");
-        trie.insert("flower");
+//        trie.insert("flow");
+//        trie.insert("flight");
+//        trie.insert("flower");
 
         String startsWith = "fli";
         System.out.printf("starts with %s: %s\n", startsWith, trie.startsWith(startsWith));
