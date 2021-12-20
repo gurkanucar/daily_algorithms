@@ -15,8 +15,8 @@ public class Solve1 {
 
         int missing = 0;
 
-        arr1 = new ArrayList<>(List.of(6, -3, 2, -7, 1, 5));
-        arr2 = new ArrayList<>(List.of(6, -3, 2, 1, -7));
+        arr1 = new ArrayList<>(List.of(-5, -2, -1, -4));
+        arr2 = new ArrayList<>(List.of(-5, -2, -1, 7, -4));
 
         // arr1 = getListFromInput();
         // arr2 = getListFromInput();
@@ -35,9 +35,19 @@ public class Solve1 {
         }
 
         for (int i = 0; i < min; i++) {
-            //get last item of greater list
+            //compare last item of min list and n-1'th item of greater list then
+            // if they are different choise item which is from greater list
+            // if they are same then choise item in last index of greater list.
             if (i == min - 1) {
-                missing = isArr1Min ? arr2.get(i) : arr1.get(i);
+                if (isArr1Min && !arr1.get(i).equals(arr2.get(i))) {
+                    missing = arr2.get(i);
+                } else if (!isArr1Min && !arr1.get(i).equals(arr2.get(i))) {
+                    missing = arr1.get(i);
+                } else if (isArr1Min) {
+                    missing = arr2.get(i + 1);
+                } else {
+                    missing = arr1.get(i + 1);
+                }
             } else {
                 //if any items are different get which is from greater list
                 if (isArr1Min && !arr1.get(i).equals(arr2.get(i))) {
