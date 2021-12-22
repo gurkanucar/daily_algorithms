@@ -1,4 +1,4 @@
-package q4_missingItemInArray;
+package day4_missingItemInArray;
 
 import java.util.ArrayList;
 import java.util.List;

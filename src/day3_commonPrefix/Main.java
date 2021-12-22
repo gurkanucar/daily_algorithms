@@ -1,4 +1,4 @@
-package q3_commonPrefix;
+package day3_commonPrefix;
 
 import java.util.*;
 

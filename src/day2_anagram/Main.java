@@ -1,4 +1,4 @@
-package q2_anagram;
+package day2_anagram;
 
 import java.util.Scanner;
 

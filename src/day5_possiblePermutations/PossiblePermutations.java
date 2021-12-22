@@ -1,4 +1,4 @@
-package q5_possiblePermutations;
+package day5_possiblePermutations;
 
 // get list from input then compute all possible permutations
 // input: a,b,c => output: abc,acb,bac,bca,cab,cba

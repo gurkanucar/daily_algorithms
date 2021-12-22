@@ -1,4 +1,4 @@
-package q1_palindrome;
+package day1_palindrome;
 
 import java.util.Scanner;
 import java.util.Stack;

@@ -1,4 +1,4 @@
-package q6_romanNumbers;
+package day6_romanNumbers;
 
 import java.util.HashMap;
 import java.util.Map;
