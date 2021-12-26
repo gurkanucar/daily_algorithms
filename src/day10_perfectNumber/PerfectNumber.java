@@ -1,4 +1,4 @@
-package perfectNumber;
+package day10_perfectNumber;
 
 import java.util.Scanner;
 
