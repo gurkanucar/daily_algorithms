@@ -1,8 +1,6 @@
-
 # Daily Algorithm Problem Challange
 
-I started to solve algorithm problems for every day.
-I will continue this as long as possible
+I started to solve algorithm problems for every day. I will continue this as long as possible
 
 - [1) 17.12.2021 : Is Palindrome?](https://github.com/gurkanucar/daily_algorithms/tree/master/src/day1_palindrome)
 
@@ -27,4 +25,6 @@ I will continue this as long as possible
 - [11) 27.12.2021 : Find Center Of Graph](https://github.com/gurkanucar/daily_algorithms/tree/master/src/day11_findCenterOfGraph)
 
 - [12) 28.12.2021 : Complement Of Number](https://github.com/gurkanucar/daily_algorithms/tree/master/src/day12_complementOfNumber)
+
+- [13) 29.12.2021 : Move Zeroes](https://github.com/gurkanucar/daily_algorithms/tree/master/src/day13_moveZeroes)
 
