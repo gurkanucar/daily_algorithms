@@ -28,3 +28,5 @@ I started to solve algorithm problems for every day. I will continue this as lon
 
 - [13) 29.12.2021 : Move Zeroes](https://github.com/gurkanucar/daily_algorithms/tree/master/src/day13_moveZeroes)
 
+- [14) 30.12.2021 : Backspace String Compare](https://github.com/gurkanucar/daily_algorithms/tree/master/src/day14_backspaceStringCompare)
+
